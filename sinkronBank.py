@@ -9,7 +9,7 @@ while (1):
     first_boot = 1
     now = datetime.now()
     try:
-        connection_to_toko = 1
+        connection_to_bank = 1
         # open connection db toko online
        try:
             connToko = pymysql.connect(host='sql4.freemysqlhosting.net', user='sql4481757',
