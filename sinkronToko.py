@@ -11,16 +11,16 @@ while (1):
         connection_to_bank = 1
         # open connection db toko online
         try:
-            connToko = pymysql.connect(host='sql4.freemysqlhosting.net', user='sql4479702',
-                                       password='5GYFmdYU8F', database='sql4479702')
+            connToko = pymysql.connect(host='sql4.freemysqlhosting.net', user='sql4481757',
+                                       password='ACsYJCpvhb', database='sql4481757')
             curToko = connToko.cursor()
         except:
             print('Tidak bisa terkoneksi ke TOKO!!!')
 
         # open connection db bank
         try:
-            connBank = pymysql.connect(host='sql4.freemysqlhosting.net', user='sql4479667',
-                                       password='6zJUzMLw8D', database='sql4479667')
+            connBank = pymysql.connect(host='sql4.freemysqlhosting.net', user='sql4481754',
+                                       password='JPkreVD6Wb', database='sql4481754')
             curBank = connBank.cursor()
         except:
             print('Tidak bisa terkoneksi ke Bank!!!')
